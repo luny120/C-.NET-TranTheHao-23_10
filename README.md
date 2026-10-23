@@ -26,45 +26,45 @@
 
 ### 1. Bài 1: Quản lý Dịch vụ Phòng Gym & Hội viên
 
-![Giao diện chính Bài 1](docs/gd1.png)
+![Giao diện chính Bài 1](LTNET-TEST02_24810320120_TranTheHao/docs/gd1.png)
 
-![Bắt lỗi Validation Bài 1](docs/loi1.png)
+![Bắt lỗi Validation Bài 1](LTNET-TEST02_24810320120_TranTheHao/docs/loi1.png)
 
-![Sửa dữ liệu Bài 1](docs/sua1.png)
+![Sửa dữ liệu Bài 1](LTNET-TEST02_24810320120_TranTheHao/docs/sua1.png)
 
-![Xóa dữ liệu Bài 1](docs/xoa1.png)
+![Xóa dữ liệu Bài 1](LTNET-TEST02_24810320120_TranTheHao/docs/xoa1.png)
 
 ### 2. Bài 2: Quản lý Tài liệu Sách & Xuất báo cáo Nhà sách
 
-![Giao diện chính Bài 2](docs/gd2.png)
+![Giao diện chính Bài 2](LTNET-TEST02_24810320120_TranTheHao/docs/gd2.png)
 
-![Chọn ảnh bìa Bài 2](docs/anh2.png)
+![Chọn ảnh bìa Bài 2](LTNET-TEST02_24810320120_TranTheHao/docs/anh2.png)
 
-![Sửa dữ liệu Bài 2](docs/sua2.png)
+![Sửa dữ liệu Bài 2](LTNET-TEST02_24810320120_TranTheHao/docs/sua2.png)
 
-![Xuất báo cáo Bài 2](docs/xuat2.png)
+![Xuất báo cáo Bài 2](LTNET-TEST02_24810320120_TranTheHao/docs/xuat2.png)
 
 ### 3. Bài 3: Hệ thống MDI Quản lý Bệnh viện
 
-![Giao diện chính Bài 3](docs/gd3.png)
+![Giao diện chính Bài 3](LTNET-TEST02_24810320120_TranTheHao/docs/gd3.png)
 
-![Sắp xếp cửa sổ cách 1 - Bài 3](docs/xep31.png)
+![Sắp xếp cửa sổ cách 1 - Bài 3](LTNET-TEST02_24810320120_TranTheHao/docs/xep31.png)
 
-![Sắp xếp cửa sổ cách 2 - Bài 3](docs/xep32.png)
+![Sắp xếp cửa sổ cách 2 - Bài 3](LTNET-TEST02_24810320120_TranTheHao/docs/xep32.png)
 
 ### 4. Bài 4: Bảng điều khiển Thống kê Doanh thu Multi-threading
 
-![Giao diện chính Bài 4](docs/gd4.png)
+![Giao diện chính Bài 4](LTNET-TEST02_24810320120_TranTheHao/docs/gd4.png)
 
-![Thống kê Bài 4](docs/tk4.png)
+![Thống kê Bài 4](LTNET-TEST02_24810320120_TranTheHao/docs/tk4.png)
 
-![Tiến trình Bài 4](docs/tt4.png)
+![Tiến trình Bài 4](LTNET-TEST02_24810320120_TranTheHao/docs/tt4.png)
 
 ### 5. Bài 5: Mô phỏng Giám sát Tỷ giá Tài chính Thời gian thực
 
-![Giao diện chính Bài 5](docs/gd5.png)
+![Giao diện chính Bài 5](LTNET-TEST02_24810320120_TranTheHao/docs/gd5.png)
 
-![Giám sát Bài 5](docs/gs5.png)
+![Giám sát Bài 5](LTNET-TEST02_24810320120_TranTheHao/docs/gs5.png)
 
 ---
 
