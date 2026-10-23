@@ -26,7 +26,7 @@
 
 ### 1. Bài 1: Quản lý Dịch vụ Phòng Gym & Hội viên
 
-![Giao diện chính Bài 1](docs/gd1.png)
+![Giao diện chính Bài 1](LTNET-TEST02_24810320120_TranTheHao/docs/gd1.png)
 
 ![Bắt lỗi Validation Bài 1](docs/loi1.png)
 
