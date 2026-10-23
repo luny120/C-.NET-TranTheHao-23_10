@@ -25,50 +25,57 @@
 ## III. MINH HỌA GIAO DIỆN & KỸ THUẬT NỔI BẬT
 
 ### 1. Bài 1: Quản lý Dịch vụ Phòng Gym & Hội viên
-* **Kỹ thuật áp dụng:** Cấu hình DataGridView bằng code (`AutoGenerateColumns =
-false`), Data Binding 2 chiều với `BindingSource`, Validation với `ErrorProvider`.
-* **Hình ảnh minh họa Giao diện:**
 
 ![Giao diện chính Bài 1](docs/gd1.png)
 
-*Mô tả: Giao diện chính hiển thị DataGridView và đồng bộ dữ liệu 2 chiều lên các
-TextBox.*
-
 ![Bắt lỗi Validation Bài 1](docs/loi1.png)
-*Mô tả: Kiểm tra hợp lệ dữ liệu nhập vào bằng ErrorProvider khi nhấn Thêm mới.*
 
----
+![Sửa dữ liệu Bài 1](docs/sua1.png)
 
-### 2. Bài 2: Quản lý & Xuất Báo cáo Nhà sách
-* **Kỹ thuật áp dụng:** `OpenFileDialog` (Tải ảnh bìa), `SaveFileDialog` /
-`OpenFileDialog` (Đọc/Ghi file CSV), Cập nhật `StatusStrip` theo thời gian thực.
-* **Hình ảnh minh họa Giao diện:**
+![Xóa dữ liệu Bài 1](docs/xoa1.png)
 
-![Giao diện Bài 2 và Load Ảnh](docs/bai2_main.png)
-*Mô tả: Chọn ảnh bìa sách từ đĩa cứng hiển thị lên PictureBox và nạp dữ liệu từ file
-CSV.*
+### 2. Bài 2: Quản lý Tài liệu Sách & Xuất báo cáo Nhà sách
 
----
+![Giao diện chính Bài 2](docs/gd2.png)
 
-### 3. Bài 3: Kiến trúc MDI & Xử lý Bất đồng bộ (Async/Await)
-* **Kỹ thuật áp dụng:** MDI Container, Quản lý chống mở trùng Form con,
-`async/await` chống treo UI, Safe Cross-Thread bằng `this.Invoke()`.
-* **Hình ảnh minh họa Giao diện:**
+![Chọn ảnh bìa Bài 2](docs/anh2.png)
 
-![Giao diện Khung MDI](docs/bai3_mdi.png)
-*Mô tả: Khung Form cha MDI điều khiển mở các Form con xếp tầng.*
+![Sửa dữ liệu Bài 2](docs/sua2.png)
 
-![Minh họa Async không treo UI](docs/bai3_async.png)
-*Mô tả: Tiến trình ngầm chạy tải dữ liệu nặng 5 giây, giao diện vẫn kéo rê và thao tác
-bình thường.*
+![Xuất báo cáo Bài 2](docs/xuat2.png)
+
+### 3. Bài 3: Hệ thống MDI Quản lý Bệnh viện
+
+![Giao diện chính Bài 3](docs/gd3.png)
+
+![Sắp xếp cửa sổ cách 1 - Bài 3](docs/xep31.png)
+
+![Sắp xếp cửa sổ cách 2 - Bài 3](docs/xep32.png)
+
+### 4. Bài 4: Bảng điều khiển Thống kê Doanh thu Multi-threading
+
+![Giao diện chính Bài 4](docs/gd4.png)
+
+![Thống kê Bài 4](docs/tk4.png)
+
+![Tiến trình Bài 4](docs/tt4.png)
+
+### 5. Bài 5: Mô phỏng Giám sát Tỷ giá Tài chính Thời gian thực
+
+![Giao diện chính Bài 5](docs/gd5.png)
+
+![Giám sát Bài 5](docs/gs5.png)
 
 ---
 
 ## IV. HƯỚNG DẪN CÀI ĐẶT & CHẠY DỰ ÁN
+
 1. Clone Repository về máy:
+
 ```bash
+git clone https://github.com/luny120/C-.NET-TranTheHao-23_10.git
+```
 
-git clone [https://github.com/nguyenvana/LTNET-TEST02_22110001_NguyenVanA.git](https://github.com/nguyenvana/LTNET-TEST02_22110001_NguyenVanA.git)
-
-2. Mở file solution src/WinFormsAppSolution.sln bằng Visual Studio 2022.
-3. Bấm F5 hoặc chọn Start để biên dịch và chạy chương trình.
+2. Mở file solution `src/WinFormsAppSolution.sln` bằng Visual Studio 2022.
+3. Chuột phải vào project cần chạy (ví dụ `Bai1`) > **Set as Startup Project**.
+4. Bấm **F5** hoặc chọn **Start** để biên dịch và chạy chương trình.
